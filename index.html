@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BreathSports - Your Ultimate Sports Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <i class="fas fa-soccer-ball logo-icon"></i>
+            <h1>Breath<span>Sports</span></h1>
+          </div>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Football</a></li>
+              <li><a href="#">Basketball</a></li>
+              <li><a href="#">Tennis</a></li>
+              <li><a href="#">More Sports</a></li>
+            </ul>
+          </nav>
+          <div class="search-signin">
+            <div class="search-box">
+              <input type="text" placeholder="Search..." />
+              <i class="fas fa-search"></i>
+            </div>
+            <button class="signin-btn">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Your Ultimate Sports Blog Destination</h2>
+          <p>
+            Get the latest news, analysis, and insights from the world of sports
+          </p>
+          <button class="cta-btn" id="exploreBtn">Explore Articles</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="featured-posts">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Articles</h2>
+        </div>
+        <div class="posts-grid">
+          <!-- Post 1 -->
+          <div class="post-card">
+            <div class="post-img">
+              <img
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Football"
+              />
+            </div>
+            <div class="post-content">
+              <span class="post-category">Football</span>
+              <h3 class="post-title">Champions League Quarterfinals Preview</h3>
+              <p class="post-excerpt">
+                A detailed analysis of the upcoming Champions League matches and
+                what to expect from each team.
+              </p>
+              <div class="post-meta">
+                <span><i class="far fa-user"></i> John Smith</span>
+                <span><i class="far fa-clock"></i> 3 hours ago</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post 2 -->
+          <div class="post-card">
+            <div class="post-img">
+              <img
+                src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Basketball"
+              />
+            </div>
+            <div class="post-content">
+              <span class="post-category">Basketball</span>
+              <h3 class="post-title">
+                NBA Playoff Picture: Who's In and Who's Out?
+              </h3>
+              <p class="post-excerpt">
+                With the regular season winding down, we look at which teams are
+                likely to make the playoffs.
+              </p>
+              <div class="post-meta">
+                <span><i class="far fa-user"></i> Sarah Johnson</span>
+                <span><i class="far fa-clock"></i> 1 day ago</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post 3 -->
+          <div class="post-card">
+            <div class="post-img">
+              <img
+                src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Tennis"
+              />
+            </div>
+            <div class="post-content">
+              <span class="post-category">Tennis</span>
+              <h3 class="post-title">
+                Grand Slam Season: Players to Watch This Year
+              </h3>
+              <p class="post-excerpt">
+                We break down the top contenders for this year's Grand Slam
+                titles and the dark horses who could surprise everyone.
+              </p>
+              <div class="post-meta">
+                <span><i class="far fa-user"></i> Mike Thompson</span>
+                <span><i class="far fa-clock"></i> 2 days ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>
+          Stay updated with the latest sports news, analysis, and exclusive
+          content delivered to your inbox.
+        </p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Sports Categories -->
+    <section class="sports-categories">
+      <div class="container">
+        <div class="section-title">
+          <h2>Sports Categories</h2>
+        </div>
+        <div class="categories-grid">
+          <div class="category-card">
+            <i class="fas fa-futbol category-icon"></i>
+            <h3>Football</h3>
+            <p>Latest news from the world of football</p>
+          </div>
+          <div class="category-card">
+            <i class="fas fa-basketball-ball category-icon"></i>
+            <h3>Basketball</h3>
+            <p>NBA, EuroLeague and more</p>
+          </div>
+          <div class="category-card">
+            <i class="fas fa-table-tennis category-icon"></i>
+            <h3>Tennis</h3>
+            <p>Grand Slams and ATP/WTA tours</p>
+          </div>
+          <div class="category-card">
+            <i class="fas fa-running category-icon"></i>
+            <h3>Athletics</h3>
+            <p>Track and field events</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>About BreathSports</h3>
+            <p>
+              Your go-to destination for the latest sports news, in-depth
+              analysis, and expert opinions from around the world of sports.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Featured Articles</a></li>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Sports Categories</h3>
+            <ul class="footer-links">
+              <li><a href="#">Football</a></li>
+              <li><a href="#">Basketball</a></li>
+              <li><a href="#">Tennis</a></li>
+              <li><a href="#">Athletics</a></li>
+              <li><a href="#">More Sports</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: info@BreathSports.com</p>
+            <p>Phone: +2347033126790</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Osuagwu Daniel Ndubueze</p>
+          <p>&copy; 2025 BreathSports. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
